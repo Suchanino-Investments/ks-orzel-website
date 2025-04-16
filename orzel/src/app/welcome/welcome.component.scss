@@ -1,0 +1,22 @@
+* {
+    // border: 1px rgb(0, 255, 0) solid
+}
+:host {
+}
+
+.welcome {
+    padding-top: 25vh;
+    text-align: center;
+
+}
+
+#logo {
+    border: 5px black solid;
+    border-radius: 15px;
+    transition: transform 1s;
+}
+
+
+#logo:hover {
+    transform: scale(1.05);
+}
